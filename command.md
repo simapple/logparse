@@ -1,0 +1,1 @@
+1. LogParser.exe -i W3C "select cs(Referer) as referer,count(*) as hits from D:\logs\W3SVC1\u_ex141212* group by referer order by hits desc" 分析来源的referer都是什么 检查盗链情况
